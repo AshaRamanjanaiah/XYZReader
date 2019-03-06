@@ -6,15 +6,14 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar_layout"
         android:layout_width="match_parent"
-        android:layout_height="112dp"
-        android:background="?colorPrimary">
+        android:layout_height="@dimen/list_appbar_height"
+        android:background="@color/theme_primary">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:collapsedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
-            app:expandedTitleMarginStart="72dp"
             app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
@@ -25,7 +24,6 @@
                 android:layout_gravity="bottom"
                 android:layout_marginLeft="@dimen/list_toolbar_side_margin"
                 android:layout_marginRight="@dimen/list_toolbar_side_margin"
-                app:contentInsetStart="72dp"
                 app:layout_collapseMode="pin"
                 app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
@@ -54,10 +52,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
-            android:paddingBottom="28dp"
+            android:paddingBottom="@dimen/list_recyclerview_paddingbottom"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
-            android:paddingTop="10dp"
+            android:paddingTop="@dimen/list_recyclerview_paddingtop"
             android:scrollbarStyle="outsideOverlay" />
     </android.support.v4.widget.SwipeRefreshLayout>
 

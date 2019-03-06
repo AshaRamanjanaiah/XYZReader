@@ -18,20 +18,22 @@
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/photo_placeholder" />
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:scaleType="centerCrop"
+            />
 
         <TextView
             android:id="@+id/article_title"
             style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="16dp"
-            android:paddingTop="16dp"
-            android:paddingRight="16dp"
-            android:paddingBottom="4dp"
-            android:textColor="@color/ltgray"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:paddingBottom="@dimen/article_title_paddingBottom"
+            android:paddingTop="@dimen/article_title_paddingTop"
             android:ellipsize="end"
             android:maxLines="4" />
 
@@ -40,10 +42,10 @@
             style="@style/TextAppearance.AppCompat.Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:paddingBottom="16dp"
-            android:textColor="#6000"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:paddingBottom="@dimen/standard_margin"
+            android:textColor="@color/article_body_textcolor"
             android:maxLines="2"
             android:ellipsize="end" />
     </LinearLayout>
