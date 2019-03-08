@@ -18,7 +18,7 @@
 <resources>
     <color name="photo_placeholder">#fff</color>
 
-    <color name="card_background">#E0F2F1</color>
+    <color name="article_list_background">#E0F2F1</color>
 
     <color name="article_body_textcolor">#6000</color>
 

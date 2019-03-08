@@ -23,11 +23,12 @@
             android:paddingLeft="@dimen/standard_margin"
             android:paddingRight="@dimen/standard_margin"
             android:scaleType="centerCrop"
+
             />
 
         <TextView
             android:id="@+id/article_title"
-            style="@style/TextAppearance.AppCompat.Subhead"
+            style="@style/subHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/standard_margin"
