@@ -39,3 +39,7 @@ App utilizes stable release versions of all libraries, Gradle, and Android Studi
 4. Effectively use transitions and motion.
 
 5. Using coordinator layout to coordinate motion between the views.
+
+## Screenshots
+
+![ScreenShot](/images/main_activity_screenshot.png)![ScreenShot](/images/detail_activity_screenshot.png)
